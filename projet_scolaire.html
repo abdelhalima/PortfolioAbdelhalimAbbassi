@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projets scolaires</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <div class="container">
+
+        <div class="logo">Abdelhalim</div>
+
+        <nav class="nav" id="nav">
+            <a href="index.html">Accueil</a>
+
+            <div class="dropdown">
+                <button class="dropdown-btn">
+                    Projets ▼
+                </button>
+
+                <div class="dropdown-content">
+                    <a href="projet_scolaire.html">Projets scolaires</a>
+                    <a href="projet_pro.html">Projets professionnels</a>
+                </div>
+            </div>
+
+            <a href="stage.html">Stages</a>
+            <a href="veille.html">Veille</a>
+        </nav>
+
+        <div class="right">
+            <a href="contact.html" class="contact-btn">Contact</a>
+            <div class="menu-btn" onclick="toggleMenu()">☰</div>
+        </div>
+
+    </div>
+</header>
+
+<section class="page">
+    <h1>Projets scolaires</h1>
+
+    <!-- PROJET 1 -->
+    <div class="card">
+        <h3>Application de gestion des appels d’offres</h3>
+        <p>
+            Dans le cadre de ma formation, j’ai développé une application en Java permettant de gérer des appels d’offres.
+            Les utilisateurs peuvent s’inscrire, se connecter, consulter des appels d’offres et proposer des offres.
+            Les entreprises peuvent publier des appels d’offres et consulter les propositions reçues.
+            L’interface a été réalisée avec JavaFX et FXML, offrant une utilisation simple et intuitive.
+        </p>
+
+        <h4>Technologies utilisées :</h4>
+        <ul>
+            <li>Java</li>
+            <li>JavaFX / FXML</li>
+            <li>MySQL</li>
+            <li>IntelliJ IDEA</li>
+        </ul>
+    </div>
+
+    <!-- PROJET 2 -->
+    <div class="card">
+        <h3>Application web de réservation (RESA YVA)</h3>
+        <p>
+            J’ai développé une application web de réservation d’hébergements. Les utilisateurs peuvent se connecter,
+            consulter les hébergements, visualiser les disponibilités par semaine et effectuer des réservations.
+            Le gestionnaire dispose d’un espace administrateur pour gérer les réservations et administrer les hébergements.
+        </p>
+
+        <h4>Technologies utilisées :</h4>
+        <ul>
+            <li>PHP</li>
+            <li>HTML / CSS</li>
+            <li>JavaScript</li>
+            <li>SQL / MySQL</li>
+            <li>EasyPHP</li>
+            <li>Visual Studio Code</li>
+        </ul>
+    </div>
+
+    <!-- PROJET 3 -->
+    <div class="card">
+        <h3>Application web de gestion d’un zoo</h3>
+        <p>
+            J’ai développé une application web en PHP permettant de gérer un zoo connecté à une base de données.
+            L’application permet d’ajouter, modifier et supprimer des animaux.
+            Deux types de comptes sont disponibles : employé (gestion des animaux) et administrateur
+            (gestion des animaux et des employés).
+        </p>
+
+        <h4>Technologies utilisées :</h4>
+        <ul>
+            <li>PHP</li>
+            <li>HTML / CSS</li>
+            <li>SQL / MySQL</li>
+            <li>EasyPHP</li>
+            <li>Visual Studio Code</li>
+        </ul>
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
